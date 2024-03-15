@@ -211,6 +211,54 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #396E94;
+}
+.blog-section {
+    text-align: center;
+}
+.blog-box {
+    width: 30%;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+}
+.blog-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.blog-title {
+    margin-top: 10px;
+}
+.blog-description {
+    font-size: 14px;
+    margin-top: 10px;
+}
+/* Add hover effect */
+.blog-box:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0);
+}
+/* Style for the part of description with a box */
+.intro p {
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 3px solid #A42212;
+    border-radius: 5px;
+    display: inline-block;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
