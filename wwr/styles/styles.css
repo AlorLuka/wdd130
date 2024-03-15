@@ -248,7 +248,7 @@ footer p a:hover {
 }
 /* Add hover effect */
 .blog-box:hover {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 15px #E7C24F;
 }
 /* Style for the part of description with a box */
 .intro p {
