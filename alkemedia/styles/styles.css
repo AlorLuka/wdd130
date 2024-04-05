@@ -35,6 +35,14 @@ body p {
 .container h2 {
     padding-top: 20px;
 }
+#about-img {
+    max-width: 20%;
+    max-height: 20%;
+    display: block;  
+    margin-top: 10px;     
+    margin-left: auto;     
+    margin-right: auto;   
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -50,6 +58,11 @@ header {
     color: var(--accent2-color);
     padding: 20px 0;
 }
+
+#about .container p {
+    text-align: left;
+}
+
 
 header .container {
     display: flex;
